@@ -6,12 +6,16 @@ import {Skill} from "./Skill/Skill";
 
 export const Skills = () => {
     return <div className={style.skillsBlock}>
-        <div className={`${commonStyle.container} ${style.skillsContainer}`} >
+        <div className={`${commonStyle.container} ${style.skillsContainer}`}>
             <h2 className={style.title}>Skills</h2>
             <div className={style.skills}>
-                <Skill />
-                <Skill />
-                <Skill />
+                <Skill title={'JS'}
+                       description={'dipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.'}/>
+                <Skill title={'CSS'}
+                       description={'dipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.'}/>
+                <Skill title={'React'}
+                       description={'dipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.'}/>
+
             </div>
 
         </div>
