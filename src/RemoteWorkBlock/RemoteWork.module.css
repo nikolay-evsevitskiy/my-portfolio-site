@@ -1,0 +1,27 @@
+.RemoteWorkContainer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.RemoteWorkBlock {
+    width: 60%;
+    height: 130px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    background-color: #ffd078;
+    margin: 0;
+}
+
+.buttonBlock  button{
+
+}
