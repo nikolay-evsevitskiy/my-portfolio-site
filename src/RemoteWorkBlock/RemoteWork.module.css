@@ -9,7 +9,7 @@
 }
 .RemoteWorkBlock {
     width: 60%;
-    height: 130px;
+    height: 60%;
     border: 1px solid;
     display: flex;
     flex-direction: column;
