@@ -1,0 +1,42 @@
+.ContactsContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fff98e;
+
+
+}
+.ContactsBlock {
+    margin-top: 80px;
+    width: 60%;
+    height: 70%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ContactsForm  {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+.blockTextArea {
+    width: 100%;
+    margin: 0;
+}
+
+.title {
+    background-color: #ffd078;
+    margin: 0;
+}
+
+.buttonBlock  button{
+
+}
