@@ -1,10 +1,10 @@
-.skillsBlock {
-    height: 100vh;
+.myProjectBlock {
+    min-height: 100vh;
     background-color: #82ee87;
     display: flex;
     justify-content: center;
 }
-.skillsContainer {
+.myProjectContainer {
     flex-direction: column;
     justify-content: flex-start;
 
@@ -13,7 +13,7 @@
     background-color: white;
     margin-bottom: 80px;
 }
-.skills {
+.myProjects {
     border: 1px solid;
     width: 100%;
     display: flex;
