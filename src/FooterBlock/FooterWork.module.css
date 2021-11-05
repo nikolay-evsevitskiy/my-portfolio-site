@@ -32,8 +32,11 @@
 .title {
     background-color: #ffd078;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .copyBlock {
     background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
