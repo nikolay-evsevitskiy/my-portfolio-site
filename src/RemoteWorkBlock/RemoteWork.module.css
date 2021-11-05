@@ -1,6 +1,6 @@
 .RemoteWorkContainer {
     width: 100%;
-    min-height: 30vh;;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,5 @@
 .title {
     background-color: #ffd078;
     margin-bottom: 40px;
-}
-
-.buttonBlock  button{
-
+    margin-top: 20px;
 }

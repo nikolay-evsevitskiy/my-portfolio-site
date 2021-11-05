@@ -1,6 +1,7 @@
 import React from "react";
 import style from './FooterWork.module.css'
 import {IconButton} from "../Common/IconButton/IconButton";
+import commonStyle from "../Common/Styles/Styles.module.css";
 
 export const Footer = () => {
     return <div className={style.FooterContainer}>
